@@ -1,3 +1,5 @@
+import headshot from '../assets/headshot.jpg'
+
 function Intro(props) {
     return (
         <>
@@ -11,8 +13,7 @@ function Intro(props) {
                     <p>I'm a web developer <br></br>based in Orlando, FL</p>
                 </div>
                 <div>
-                    <p>block 2</p>
-                    <p>tsuki</p>
+                    <img className="headshot" src={headshot} alt="my headshot"/>
                 </div>
             </div>
         </section>

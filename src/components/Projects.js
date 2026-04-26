@@ -36,7 +36,7 @@ function Projects(props) {
             </div>
             <div className="projectsDiv">
                 <div className="project1">
-                    < p className='projectTitle'>{projects[0].name}</p>
+                    <p className='projectTitle1'>{projects[0].name}</p>
                     <p className="projectDate">{projects[0].date}</p>
                     <div className="project1Flex">
                         <img className="project1Img" src={project1} alt="Game Review CMS"/>
@@ -48,14 +48,14 @@ function Projects(props) {
                     <p className="projectDate">{projects[1].date}</p>
                     <div className="project2Flex">
                         <p>{projects[1].desc}</p>
-                        <img className="project2Img" src={project2} alt="project 2"/>
+                        <img className="project2Img" src={project2} alt="fAInman"/>
                     </div>
                 </div>
                 <div className="project3">
                     <a href="https://valmg11.github.io/expo-todo-test/" className='projectTitle'>{projects[2].name}</a>
                     <p className='projectDate'>{projects[2].date}</p>
                     <div className="project3Flex">
-                        <img className="project3Img" src={project3} alt="project 3"/>
+                        <img className="project3Img" src={project3} alt="To-Do List"/>
                         <p>{projects[2].desc}</p>
                     </div>
                 </div>
@@ -64,7 +64,7 @@ function Projects(props) {
                     <p className='projectDate'>{projects[3].date}</p>
                     <div className="project4Flex">
                         <p>{projects[3].desc}</p>
-                        <img className="project4Img" src={project4} alt="project 2"/>
+                        <img className="project4Img" src={project4} alt="Exercise App"/>
                     </div>
                 </div>
             </div>

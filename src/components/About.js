@@ -1,3 +1,10 @@
+const aboutInfo = [
+    "I'm a Web Development student at the University of Central Florida on track to obtain my Bachlor's degree.", 
+    "With my skills, I would love to pursue a career that involves UI/UX Design. I was born and raised in Boca Raton and have always had a strong connection with art and its many forms.",
+    "I've always kept music in my life, and I have been involved in various music ensembles since middle school. I currently play the baritone saxophone for the UCF University Band and Video Game Music Ensemble (VGM@UCF).",
+    "I am currently the Marketing Coordinator for Design & Code @ UCF, where I get to broaden my social connections and outreach skills."
+]
+
 function About(props) {
     return (
        <>
@@ -7,13 +14,10 @@ function About(props) {
         </div>
         <div className="aboutDiv">
             <div>
-                <p>I'm a Web Development student at the University of Central Florida <br></br>on track to obtain my Bachlor's degree.</p>
-                <p>I'm passionate about designing and music, and would love to obtain a role in the future in UI/UX design.</p>
+                {aboutInfo.map((aboutInfo, index) => (
+                    <p key={index}>{aboutInfo}</p>
+                ))}
             </div>
-            {/* <div>
-                <p>block 2</p>
-                <p>tsuki</p>
-            </div> */}
         </div>
         </section>
         </>
