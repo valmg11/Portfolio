@@ -34,6 +34,10 @@ html {
   backdrop-filter: blur(5px);
 }
 
+.navLinks {
+  font-size: 25px;
+}
+
 section {
   scroll-snap-align: start;
 }
@@ -51,8 +55,8 @@ a {
 }
 
 a:hover {
-  color: #525081;
-  text-decoration: underline;
+  color: #8685AD;
+  /* text-decoration: underline; */
 }
 /* 
 .aboutDiv, .projectDiv {
