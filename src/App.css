@@ -134,18 +134,16 @@ a:hover {
   margin: 0;
 }
 
-
-.projectTitle:hover {
-  color: #282657;
-}
-
-.projectTitle1:hover {
-  color: white;
-}
-
-
 .projectDate {
   font-size: 15px;
+}
+
+.projectDetails {
+  font-size: 15px;
+}
+
+.projectDetails:hover {
+  color: #282657;
 }
 
 /* contact */
@@ -157,7 +155,7 @@ a:hover {
 }
 
 .contactDiv {
-  margin-bottom: 50px;
+  margin-bottom: 90px;
 }
 
 .contactButtons {
@@ -177,4 +175,9 @@ a:hover {
 
 .footerText {
   font-size: 15px;
+}
+
+.footer {
+  background-color: #282657;
+  width: 100%;
 }

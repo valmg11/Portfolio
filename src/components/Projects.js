@@ -8,7 +8,7 @@ const projects = [
     {
         name: "CMS Game Review",
         date: "April 2026",
-        desc: "This is a CMS project built with PHP where reviewers can input video games they like and give it a review and a rating. The administators are able to delete these reviews."
+        desc: "This is a Content Management System project built with PHP and CSS where reviewers can input any video game to give it a review and a rating. The administators are able to delete these reviews."
     },
     {
         name: "fAInman",
@@ -17,8 +17,8 @@ const projects = [
     },
     {
         name: "To-Do List",
-        date: "March, 2026",
-        desc: "Created with React Native Expo, this to-do list users are able to create tasks as well as mark these tasks as completed by filling in the checkbox."
+        date: "March 2026",
+        desc: "This is a functional to-do list made with React Native Expo. Users are able to add new tasks, as well as mark these tasks as completed or incomplete."
     },
     {
         name: "Exercise App",
@@ -44,28 +44,33 @@ function Projects(props) {
                     </div>
                 </div>
                 <div className="project2">
-                    <a href="https://github.com/jm19pa/Feynman-AI" className='projectTitle'>{projects[1].name}</a>
+                    <p className='projectTitle'>{projects[1].name}</p>
                     <p className="projectDate">{projects[1].date}</p>
                     <div className="project2Flex">
                         <p>{projects[1].desc}</p>
                         <img className="project2Img" src={project2} alt="fAInman"/>
                     </div>
+                    <a href="https://github.com/jm19pa/Feynman-AI" className='projectDetails'>view details</a>
                 </div>
+                
                 <div className="project3">
-                    <a href="https://valmg11.github.io/expo-todo-test/" className='projectTitle'>{projects[2].name}</a>
+                    <p className='projectTitle'>{projects[2].name}</p>
                     <p className='projectDate'>{projects[2].date}</p>
                     <div className="project3Flex">
                         <img className="project3Img" src={project3} alt="To-Do List"/>
                         <p>{projects[2].desc}</p>
                     </div>
+                    <a href="https://valmg11.github.io/expo-todo-test/" className='projectDetails'>view details</a>
                 </div>
+
                 <div className="project4">
-                    <a href="https://valmg11.github.io/Updated-Exercise-App/" className='projectTitle'>{projects[3].name}</a>
+                    <p className='projectTitle'>{projects[3].name}</p>
                     <p className='projectDate'>{projects[3].date}</p>
                     <div className="project4Flex">
                         <p>{projects[3].desc}</p>
                         <img className="project4Img" src={project4} alt="Exercise App"/>
                     </div>
+                    <a href="https://valmg11.github.io/Updated-Exercise-App/" className='projectDetails'>view details</a>
                 </div>
             </div>
         </section>
