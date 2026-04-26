@@ -1,0 +1,144 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #0F0E47;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* nav bar pages */
+.navBar {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  top: 0;
+  left: 0;
+  gap: 100px;
+  width: 3000px;
+  background-color: rgb(40, 38, 87, 0.5);
+  backdrop-filter: blur(5px);
+}
+
+section {
+  scroll-snap-align: start;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #525081;
+  text-decoration: underline;
+}
+/* 
+.aboutDiv, .projectDiv {
+  margin-top: 800px;
+} */
+
+.introDiv {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+}
+
+.introScreen {
+  /* margin: 200px; */
+  margin-top: 300px;
+}
+
+.contactDiv {
+  margin-bottom: 50px;
+}
+
+input {
+  height: 25px;
+  width: 150px;
+  border-radius: 10px;
+  border: none;
+}
+
+.project1, .project2, .project3, .project4 {
+  width: 1000px;
+  height: 400px;
+  background-color: #8685AD;
+  border-radius: 20px;
+  padding: 30px;
+  margin-bottom: 60px;
+
+  transition: transform 0.2s ease-in-out;
+}
+
+.project1:hover, .project2:hover, .project3:hover, .project4:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}
+
+.project1Img, .project3Img, .project4Img {
+  width: 40%;
+}
+
+.project2Img {
+  width: 50%;
+}
+
+.project1Flex, .project2Flex, .project3Flex, .project4Flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  /* background-color: red; */
+}
+
+.projectTitle {
+  font-size: 35px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.projectDate {
+  font-size: 15px;
+}
+
+.contact1 {
+  display: flex;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+.contact2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.submit {
+  width: 100px;
+}
+
+.footerText {
+  font-size: 15px;
+}
