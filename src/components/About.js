@@ -2,7 +2,7 @@ const aboutInfo = [
     "I'm a Web Development student at the University of Central Florida on track to obtain my Bachlor's degree.", 
     "With my skills, I would love to pursue a career that involves UI/UX Design. I was born and raised in Boca Raton and have always had a strong connection with art and its many forms.",
     "I've always kept music in my life, and I have been involved in various music ensembles since middle school. I currently play the baritone saxophone for the UCF University Band and Video Game Music Ensemble (VGM@UCF).",
-    "I am currently the Marketing Coordinator for Design & Code @ UCF, where I get to broaden my social connections and outreach skills."
+    "Some of my prominent skills include HTML, CSS, JavaScript, React, PHP, GitHub, Figma, Canva, Photoshop, and Microsoft 365."
 ]
 
 function About(props) {
