@@ -6,9 +6,10 @@ function Contact(props) {
             <h2>{props.data[3]}</h2>
         </div>
         <div className="contactDiv">
-            <div>
-                <a href="https://www.linkedin.com/in/valentina-gandolfo-126046306/">LinkedIn</a> <br></br>
-                <a href="https://ucf.joinhandshake.com/profiles/5gen4z">Handshake</a>
+            <div className="buttonDiv">
+                <a href="https://www.linkedin.com/in/valentina-gandolfo-126046306/" className="contactButtons">LinkedIn</a> <br></br>
+                <a href="https://ucf.joinhandshake.com/profiles/5gen4z" className="contactButtons">Handshake</a>
+                
                 {/* <p>Contact me!</p> */}
                 {/* <div className="contact1">
                     <input placeholder="Name"></input>

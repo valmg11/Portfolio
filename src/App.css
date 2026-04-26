@@ -52,16 +52,15 @@ ul {
 a {
   text-decoration: none;
   color: white;
+  transition: transform 0.2s ease-in-out;
 }
 
 a:hover {
   color: #8685AD;
+  transition: 0.2s ease-in-out;
+  transform: scale(1.02);
   /* text-decoration: underline; */
 }
-/* 
-.aboutDiv, .projectDiv {
-  margin-top: 800px;
-} */
 
 .introDiv {
   display: flex;
@@ -76,13 +75,6 @@ a:hover {
 
 .contactDiv {
   margin-bottom: 50px;
-}
-
-input {
-  height: 25px;
-  width: 150px;
-  border-radius: 10px;
-  border: none;
 }
 
 .project1, .project2, .project3, .project4 {
@@ -123,6 +115,10 @@ input {
   margin: 0;
 }
 
+.projectTitle:hover {
+  color: red;
+}
+
 .projectDate {
   font-size: 15px;
 }
@@ -139,8 +135,23 @@ input {
   gap: 10px;
 }
 
-.submit {
-  width: 100px;
+.buttonDiv {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.contactButtons {
+  background-color: #525081;
+  padding: 5px;
+  border-radius: 10px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.contactButtons:hover {
+  background-color: #8685AD;
+  transform: scale(1.02);
+  color: white;
 }
 
 .footerText {
