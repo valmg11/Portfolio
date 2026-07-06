@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.dfc0785d.css",
-    "main.js": "/Portfolio/static/js/main.aa6dcfd7.js",
+    "main.css": "/Portfolio/static/css/main.971369bb.css",
+    "main.js": "/Portfolio/static/js/main.ac5816de.js",
     "static/js/453.635f5f07.chunk.js": "/Portfolio/static/js/453.635f5f07.chunk.js",
     "static/media/headshot.jpg": "/Portfolio/static/media/headshot.d25319599484709b6244.jpg",
     "static/media/CMS.jpg": "/Portfolio/static/media/CMS.474ac4aa0121495b727c.jpg",
+    "static/media/thrifted.png": "/Portfolio/static/media/thrifted.b883f7f7a48ac1e8fb9a.png",
     "static/media/chatPage.jpg": "/Portfolio/static/media/chatPage.2d09521fdb9895363163.jpg",
+    "static/media/linkedin.png": "/Portfolio/static/media/linkedin.35f845808dc8cea8c89c.png",
     "static/media/exerciseApp.jpg": "/Portfolio/static/media/exerciseApp.71f63f2c462282803682.jpg",
     "static/media/todo.jpg": "/Portfolio/static/media/todo.c065f722791bf3beb74d.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.dfc0785d.css.map": "/Portfolio/static/css/main.dfc0785d.css.map",
-    "main.aa6dcfd7.js.map": "/Portfolio/static/js/main.aa6dcfd7.js.map",
+    "main.971369bb.css.map": "/Portfolio/static/css/main.971369bb.css.map",
+    "main.ac5816de.js.map": "/Portfolio/static/js/main.ac5816de.js.map",
     "453.635f5f07.chunk.js.map": "/Portfolio/static/js/453.635f5f07.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dfc0785d.css",
-    "static/js/main.aa6dcfd7.js"
+    "static/css/main.971369bb.css",
+    "static/js/main.ac5816de.js"
   ]
 }
