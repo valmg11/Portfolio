@@ -114,6 +114,12 @@ a:hover {
   border-radius: 15px;
 }
 
+.thrifted {
+  max-width: 12%;
+  height: 40%;
+  border-radius: 15px;  
+}
+
 .project2Img {
   max-width: 50%;
   height: 40%;
@@ -159,17 +165,18 @@ a:hover {
 }
 
 .contactButtons {
-  background-color: #525081;
-  padding: 5px;
-  /* margin-bottom: 15px; */
-  border-radius: 10px;
+  /* background-color: #525081; */
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 15px;
+  border-radius: 150px;
   transition: transform 0.2s ease-in-out;
-  width: 180px;
+  /* width: 80px; */
 }
 
 .contactButtons:hover {
-  background-color: #8685AD;
-  transform: scale(1.02);
+  /* background-color: #8685AD; */
+  transform: scale(1.12);
   color: white;
 }
 
