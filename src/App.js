@@ -18,7 +18,6 @@ function App() {
         <Navbar/>
         <Intro data={sections}/>
 
-        {/* <p>hi</p> */}
         <About data={sections}/>
         <Projects data={sections}/>
         <Contact data={sections}/>
