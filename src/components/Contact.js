@@ -15,8 +15,8 @@ function Contact(props) {
         <div className="contactDiv">
             <div className="buttonDiv">
                 <a href="https://ucf.joinhandshake.com/profiles/5gen4z" target="_blank" rel="noopener noreferrer" className="contactButtons"><img src={Handshake} alt="Handshakes Logo" style={{ width: '50px' }}/></a>
-                <a href="https://www.linkedin.com/in/valentina-gandolfo-126046306/" target="_blank" rel="noopener noreferrer" className="contactButtons"><img src={LinkedIn} alt="LinkedIn Logo" style={{ width: '50px' }}/></a> <br></br>
-                <a href="https://github.com/valmg11" target="_blank" rel="noopener noreferrer" className="contactButtons"><img src={Github} alt="Github Logo" style={{ width: '50px' }}/></a> <br></br>
+                <a href="https://www.linkedin.com/in/valentina-gandolfo-126046306/" target="_blank" rel="noopener noreferrer" className="contactButtons"><img src={LinkedIn} alt="LinkedIn Logo" style={{ width: '55px' }}/></a> <br></br>
+                <a href="https://github.com/valmg11" target="_blank" rel="noopener noreferrer" className="contactButtons"><img src={Github} alt="Github Logo" style={{ width: '55px' }}/></a> <br></br>
             </div>
         </div>
         </section>

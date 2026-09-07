@@ -3,8 +3,13 @@ import project2 from '../assets/chatPage.jpg'
 import project3 from '../assets/todo.jpg'
 import project4 from '../assets/exerciseApp.jpg'
 import thrifted from '../assets/thrifted.png'
+import joinSWC from '../assets/SWC.png'
 
+import paros from '../assets/parosItinerary.png'
+import canada from '../assets/canadaDay.png'
+import poster from '../assets/cmcsPoster.jpg'
 
+const projectType = ["Web & UI", "Social Media & Graphics"];
 
 const projects = [
     {
@@ -27,11 +32,35 @@ const projects = [
         date: "April 2026",
         desc: "Using User-Interface skills, a team and I created a functional prototype for a thrifting app using Figma. Thrifted is intended to help users more easily locate thrift stores for whatever their needs may be."
     },
-     {
+    {
         name: "Exercise App",
         date: "April 2026",
         desc: "This exercise app was create with React and tracks 6 different exercises. Users can choose to train with a duration exercise, repetition exercise, or a strength exercise."
+    },
+    {
+        name: "Starr Wellness Collective",
+        date: "July 2026",
+        desc: "I revamped the joinSWC website using typescript and react. Working together with my supervisor, she provided me with HTML code to convert and implement into the new website. The assistance of AI tools helped speed up this process."
     }
+]
+
+    const socialProjects = [
+    // social media
+    {
+        name: "Paros Itineray Post",
+        date: "July 2026",
+        desc: "Working together with another peer, we created an itinerary post for the Greek island Paros as social media content for TheGreekend internship using Canva."
+    },
+    {
+        name: "Canada Day Post",
+        date: "July 2026",
+        desc: "Working together with another peer, we created an itinerary post for the Greek island Paros as social media content for TheGreekend internship using Canva."
+    },
+    {
+        name: "Chef Michael's Culinary Services Poster",
+        date: "August 2026",
+        desc: "Created using Canva, this is a poster for Chef Michael's Culinary Services, a small personal chef business based in South Florida."
+    },
 ]
 
 function Projects(props) {
@@ -40,6 +69,9 @@ function Projects(props) {
         <section id="projects">
             <div>
                 <h2>{props.data[2]}</h2>
+            </div>
+            <div>
+                <h4>{projectType[0]}</h4>
             </div>
             <div className="projectsDiv">
                 <div className="project2">
@@ -91,6 +123,50 @@ function Projects(props) {
                     </div>
                     <a href="https://valmg11.github.io/Updated-Exercise-App/" target="_blank" rel="noopener noreferrer" className='projectDetails'>view project</a>
                 </div>
+
+                <div className="project3">
+                    <p className='projectTitle'>{projects[5].name}</p>
+                    <p className='projectDate'>{projects[5].date}</p>
+                    <div className="project3Flex">
+                        <img className="project3Img" src={joinSWC} alt="To-Do List"/>
+                        <p>{projects[5].desc}</p>
+                    </div>
+                    <a href="https://youtu.be/bLOnKZhV4VE" target="_blank" rel="noopener noreferrer" className='projectDetails'>view project</a>
+                </div>
+            </div>
+
+
+            {/* social projects */}
+            <div>
+                <h4>{projectType[1]}</h4>
+            </div>
+
+            <div className="project3">
+                <p className='projectTitle'>{socialProjects[0].name}</p>
+                <p className='projectDate'>{socialProjects[0].date}</p>
+                <div className="project3Flex">
+                    <img className="posterImg" src={paros} alt="To-Do List" style={{width: '220px', borderRadius: "15px" }}/>
+                    <p>{socialProjects[0].desc}</p>
+                </div>
+                <a href="https://www.instagram.com/p/Daqb2m3HPS7/?img_index=1" target="_blank" rel="noopener noreferrer" className='projectDetails'>view project</a>
+            </div>
+            <div className="project2">
+                <p className='projectTitle'>{socialProjects[1].name}</p>
+                <p className="projectDate">{socialProjects[1].date}</p>
+                <div className="project2Flex">
+                    <p>{socialProjects[1].desc}</p>
+                    <img className="project2Img" src={canada} alt="fAInman" style={{width: '210px', borderRadius: "15px" }}/>
+                </div>
+                <a href="https://www.instagram.com/p/DaRJixTHJTL/?img_index=1" target="_blank" rel="noopener noreferrer" className='projectDetails'>view project</a>
+            </div>
+            <div className="project3">
+                <p className='projectTitle'>{socialProjects[2].name}</p>
+                <p className='projectDate'>{socialProjects[2].date}</p>
+                <div className="project3Flex">
+                    <img className="posterImg" src={poster} alt="To-Do List" style={{width: '210px', borderRadius: "15px" }}/>
+                    <p>{socialProjects[2].desc}</p>
+                </div>
+                <a href="https://canva.link/u2usfkm1hvmn6q7" target="_blank" rel="noopener noreferrer" className='projectDetails'>view project</a>
             </div>
         </section>
         </>

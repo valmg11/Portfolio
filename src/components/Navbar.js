@@ -1,10 +1,12 @@
+import Logo from '../assets/logoVG.png';
+
 function Navbar() {
     return (
         <nav>
             <div className="navBar">
                 <ul>
                     <li className="home">
-                        <a className="navLinks" href="#intro">Home</a>
+                        <a className="navLinks" href="#intro"><img src={Logo} alt="VG Logo" style={{width: '50px', marginTop: '10px' }}/></a>
                     </li>
                 </ul>
                 <ul>
